@@ -1,0 +1,41 @@
+# -------------------------
+# SECURITY: Never commit keys
+# -------------------------
+deploy_key
+deploy_key.pub
+*.pem
+*.key
+*.pub
+
+# -------------------------
+# Node / JS output (if used later)
+# -------------------------
+node_modules/
+dist/
+build/
+.cache/
+
+# -------------------------
+# macOS metadata
+# -------------------------
+.DS_Store
+
+# -------------------------
+# Docker / build artifacts
+# -------------------------
+*.tar
+*.log
+docker-image.tar
+
+# -------------------------
+# Python virtualenv (if used)
+# -------------------------
+venv/
+.env
+
+# -------------------------
+# Temporary editor files
+# -------------------------
+*.swp
+*.swo
+*~
